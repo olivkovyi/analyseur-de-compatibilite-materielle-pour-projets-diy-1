@@ -1,0 +1,291 @@
+{
+  "run_id": "run-1775081429672",
+  "job_index": 1,
+  "params": {
+    "owner_user_id": "user-1774822953462",
+    "owner_username": "admin",
+    "owner_display_name": "Administrator",
+    "count": 3,
+    "archetype": "tool",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "Sélectionnez les matériaux que vous possédez ou envisagez d'utiliser, et l'outil vous indiquera les compatibi…",
+    "notes": "Déterminez la compatibilité des matériaux pour vos projets de bricolage et de rénovation. Idéal pour les artisans et les passionnés.\nL'outil aide à éviter les erreurs coûteuses et les résultats décevants dans les projets de bricolage en fournissant des informations techniques simplifiées.",
+    "import_notes": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "railway",
+    "requested_publish_target": "railway",
+    "github_repo_private": true,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "mixed batch",
+    "archetype_mix": [
+      "tool",
+      "generator",
+      "calculator"
+    ],
+    "forced_design_theme": "copper-grid",
+    "forced_structure_preset": "quick-compare-strip",
+    "site_idea_title": "Analyseur de Compatibilité Matérielle pour Projets DIY",
+    "site_idea_summary": "Déterminez la compatibilité des matériaux pour vos projets de bricolage et de rénovation. Idéal pour les artisans et les passionnés."
+  },
+  "site_spec": {
+    "slug": "analyseur-de-compatibilite-materielle-pour-projets-diy-1",
+    "theme": {
+      "name": "Copper Grid",
+      "slug": "copper-grid",
+      "eyebrow": "Editorial Utility",
+      "family": "editorial-warm",
+      "moods": [
+        "editorial",
+        "warm",
+        "premium",
+        "storytelling"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator",
+        "generator"
+      ],
+      "niches": [
+        "home",
+        "property",
+        "renovation",
+        "budget",
+        "advice"
+      ],
+      "keywords": [
+        "craft",
+        "trust",
+        "service",
+        "quote"
+      ],
+      "token_index": [
+        "advice",
+        "budget",
+        "calculator",
+        "copper",
+        "craft",
+        "editorial",
+        "generator",
+        "grid",
+        "home",
+        "premium",
+        "property",
+        "quote",
+        "renovation",
+        "service",
+        "storytelling",
+        "tool",
+        "trust",
+        "utility",
+        "warm"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap",
+      "display_font": "\"Fraunces\", serif",
+      "body_font": "\"Space Grotesk\", sans-serif",
+      "layout": "showcase",
+      "card_style": "paper",
+      "button_style": "gradient",
+      "decor_style": "ribbons",
+      "hero_template": "0.94fr 1.06fr",
+      "seo_template": "1.18fr 0.82fr",
+      "feature_columns": 2,
+      "faq_columns": 3,
+      "hero_min_height": "78vh",
+      "panel_radius": "30px",
+      "card_radius": "24px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "18px",
+      "palette": {
+        "bg": "#15110f",
+        "surface": "rgba(36, 25, 20, 0.8)",
+        "surface_border": "rgba(255, 255, 255, 0.08)",
+        "text": "#fff2e2",
+        "muted": "#d1b69d",
+        "accent": "#ff9d57",
+        "accent_alt": "#7dd3fc",
+        "hero_glow": "rgba(255, 157, 87, 0.16)",
+        "button_text": "#25140b",
+        "panel_alt": "rgba(255, 255, 255, 0.05)",
+        "shadow": "0 26px 72px rgba(11, 8, 6, 0.35)",
+        "input_fill": "rgba(255, 255, 255, 0.05)"
+      }
+    },
+    "structure": {
+      "name": "Quick Compare Strip",
+      "slug": "quick-compare-strip",
+      "hero_variant": "tool-first",
+      "proof_variant": "metrics",
+      "section_order": [
+        "proof",
+        "features",
+        "faq",
+        "seo"
+      ],
+      "feature_columns": 3,
+      "faq_columns": 2,
+      "family": "compare-strip",
+      "moods": [
+        "direct",
+        "fast",
+        "comparison"
+      ],
+      "archetypes": [
+        "calculator",
+        "tool"
+      ],
+      "niches": [
+        "insurance",
+        "finance",
+        "quotes",
+        "switching"
+      ],
+      "keywords": [
+        "compare",
+        "choices",
+        "fast",
+        "matrix"
+      ],
+      "token_index": [
+        "calculator",
+        "choices",
+        "compare",
+        "comparison",
+        "direct",
+        "faq",
+        "fast",
+        "features",
+        "finance",
+        "first",
+        "insurance",
+        "matrix",
+        "metrics",
+        "proof",
+        "quick",
+        "quotes",
+        "seo",
+        "strip",
+        "switching",
+        "tool"
+      ]
+    },
+    "render_direction": "atlas-report",
+    "render_direction_name": "Atlas Report",
+    "page_blueprint": "signal-matrix",
+    "page_blueprint_name": "Signal Matrix",
+    "title": "Analyseur de Compatibilité Matérielle pour Projets DIY",
+    "tagline": "Un signal compact pour décider plus vite.",
+    "description": "Déterminez la compatibilité des matériaux pour vos projets de bricolage et de rénovation. Idéal pour les artisans et les passionnés. Évitez les erreurs coûteuses grâce à notre outil d",
+    "feature_prefix": "Bloc",
+    "action": "Utiliser l'outil",
+    "cta_primary": "Voir la suite",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "primary",
+        "label": "Texte ou besoin",
+        "type": "text",
+        "placeholder": "Votre besoin principal",
+        "weight": 1.0
+      },
+      {
+        "id": "context",
+        "label": "Contexte",
+        "type": "text",
+        "placeholder": "Situation ou objectif",
+        "weight": 1.0
+      },
+      {
+        "id": "scope",
+        "label": "Intensité",
+        "type": "number",
+        "placeholder": "3",
+        "weight": 0.3
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Atlas Report",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Résultat recommandé",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Atlas Report",
+      "Voir la suite",
+      "Résultat recommandé",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Résultat recommandé",
+    "result_unit": "",
+    "runtime_mode": "analysis_tool",
+    "page_variant": "console",
+    "faq_topic": "Analyseur de Compatibilité Matérielle pour Projets DIY",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour Analyseur de Compatibilité Matérielle pour Projets DIY ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de Analyseur de Compatibilité Matérielle pour Projets DIY et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "feature_cards": [
+      {
+        "title": "Bloc de flux",
+        "text": "L'outil isole un signal narrative à partir d'un sujet concret comme Analyseur de Compatibilité Matérielle pour Projets DIY."
+      },
+      {
+        "title": "Signal mesuré",
+        "text": "Le parcours Quick Compare Strip garde l'interface contextuelle même quand l'entrée est plus dense."
+      },
+      {
+        "title": "Action opératoire",
+        "text": "La prochaine action devient argumentée grâce à une sortie pensée pour une décision rapide."
+      }
+    ],
+    "proof_cards": [
+      {
+        "title": "Signal 01",
+        "text": "Copper Grid cadre la page avec une lecture narrative qui rassure dès le premier écran."
+      },
+      {
+        "title": "Signal 02",
+        "text": "Quick Compare Strip met le résultat en avant avec une hiérarchie contextuelle et directement exploitable."
+      },
+      {
+        "title": "Signal 03",
+        "text": "Le CTA mène vers une action argumentée, sans exposer l'utilisateur à un écran inutile."
+      }
+    ],
+    "generation_mode": "template_fallback"
+  }
+}
